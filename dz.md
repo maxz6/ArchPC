@@ -31,6 +31,7 @@
 7. (((X and nY) or (nX and Y)) or (X and nX)) or (nX or Y)
    
    (X and Y) or (nX and Y) or (X and nY) or (nX and nY)
+---
 1. | x | y | z | x * y * z | x' * y' * z' | (x * y * z) or (x' * y' * z') |
    |---|---|---|---|---|---|
    | 0 | 0 | 0 | 0 | 1 | 1 |
