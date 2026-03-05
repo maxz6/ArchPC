@@ -25,8 +25,9 @@
    
    Ответ: 0.
 5. ((X <-> nY) or (X and nX)) or (X -> Y)
-
+   
    (((X and nY) or (nX and Y)) or (X and nX)) or (nX or Y)
+6.
 7. (((X and nY) or (nX and Y)) or (X and nX)) or (nX or Y)
    
    (X and Y) or (nX and Y) or (X and nY) or (nX and nY)
@@ -40,4 +41,5 @@
    | 1 | 0 | 1 | 0 | 0 | 0 |
    | 1 | 1 | 0 | 0 | 0 | 0 |
    | 1 | 1 | 1 | 1 | 0 | 1 |
+2.
 3. {xy ⊕ xz ⊕ yz, 0, 1} является неполн. по теореме Поста, т. к. целиком содержится в классе M.
